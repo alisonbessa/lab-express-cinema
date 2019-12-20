@@ -1,0 +1,9 @@
+<a href="/movies">Go Back</a>
+<h1>{{movies.title}}</h1>
+<span>Director: {{movies.director}}</span>
+<p>Stars
+    <ul>
+  {{#each movies}}
+    <li>{{stars}}</li>
+  {{/each}}
+</ul>
